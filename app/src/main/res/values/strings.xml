@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asistan</string>
+    <string name="desc">Ekranı okuyup senin adına dokunma, kaydırma ve yazma işlemleri yapar.</string>
+</resources>
