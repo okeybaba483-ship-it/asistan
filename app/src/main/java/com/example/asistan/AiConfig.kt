@@ -1,7 +1,7 @@
 package com.example.asistan
 
-// Hangi AI sağlayıcısının kullanılacağını belirten enum sınıfı
-enum class AiProvider {
-    CLAUDE,
-    DEEPSEEK
-}
+data class AiConfig(
+    val provider: AiProvider,
+    val deepseekApiKey: String,
+    val chatgptApiKey: String
+)
