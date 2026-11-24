@@ -1,4 +1,4 @@
-package com.example.asistan
+ package com.example.asistan
 
 import android.app.Activity
 import android.os.Bundle
@@ -13,7 +13,9 @@ class MainActivity : Activity() {
             deepseekApiKey = "",
             chatgptApiKey = ""
         )
-        val lim = Lim(config)
+        
+        // Lim sınıfı da eksik olduğu için bunu şimdilik devre dışı bırakıyorum
+        // val lim = Lim(config) 
 
         Thread {
             // İsteği arka plan iş parçacığında çalıştırın
